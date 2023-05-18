@@ -1,0 +1,7 @@
+﻿Build started...
+1>------ Build started: Project: MyWCFService, Configuration: Debug Any CPU ------
+1>Validating Web Site
+1>Building directory '/'.
+1>
+1>Validation Complete
+========== Build: 1 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========

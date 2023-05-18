@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApi.Sample01", "MyApi.Sample01\MyApi.Sample01.csproj", "{EA881E14-21E7-47C5-AA0A-2321CE216DD3}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyWCFService", "MyWCFService\", "{DD9B7AD7-44F1-4E31-BA07-8BEB41EB02B1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54421"
+		Debug.AspNetCompiler.PhysicalPath = "MyWCFService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54421\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54421"
+		Release.AspNetCompiler.PhysicalPath = "MyWCFService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54421\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54421"
+		SlnRelativePath = "MyWCFService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{0E2BD3D7-0F9A-4FF7-8FF1-6FDCD22B64BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DD9B7AD7-44F1-4E31-BA07-8BEB41EB02B1} = {DD9B7AD7-44F1-4E31-BA07-8BEB41EB02B1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApi.EndUserUI", "MyApi.EndUserUI\MyApi.EndUserUI.csproj", "{FBCD3B78-7463-48E8-B26E-090501BA0576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApi.MyUI", "MyApi.MyUI\MyApi.MyUI.csproj", "{2D98D7C2-1537-4A3C-82B8-164CC04F729B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA881E14-21E7-47C5-AA0A-2321CE216DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA881E14-21E7-47C5-AA0A-2321CE216DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA881E14-21E7-47C5-AA0A-2321CE216DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA881E14-21E7-47C5-AA0A-2321CE216DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9B7AD7-44F1-4E31-BA07-8BEB41EB02B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9B7AD7-44F1-4E31-BA07-8BEB41EB02B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9B7AD7-44F1-4E31-BA07-8BEB41EB02B1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9B7AD7-44F1-4E31-BA07-8BEB41EB02B1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0E2BD3D7-0F9A-4FF7-8FF1-6FDCD22B64BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2BD3D7-0F9A-4FF7-8FF1-6FDCD22B64BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2BD3D7-0F9A-4FF7-8FF1-6FDCD22B64BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2BD3D7-0F9A-4FF7-8FF1-6FDCD22B64BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCD3B78-7463-48E8-B26E-090501BA0576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCD3B78-7463-48E8-B26E-090501BA0576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCD3B78-7463-48E8-B26E-090501BA0576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCD3B78-7463-48E8-B26E-090501BA0576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D98D7C2-1537-4A3C-82B8-164CC04F729B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D98D7C2-1537-4A3C-82B8-164CC04F729B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D98D7C2-1537-4A3C-82B8-164CC04F729B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D98D7C2-1537-4A3C-82B8-164CC04F729B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {055BAAB2-8199-4ACD-91DE-4E3BF8F3BC2B}
+	EndGlobalSection
+EndGlobal
